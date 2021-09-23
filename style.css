@@ -1,0 +1,219 @@
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-background {
+  background-image: url("쇼핑몰사진1.jpg");
+  width: 100%;
+  height: 900px;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+.nav-top {
+  background-color: transparent;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
+}
+.nav-left {
+  padding-left: 50px;
+}
+.nav-right {
+  padding-right: 50px;
+}
+.nav-right-list {
+  list-style: none;
+  display: flex;
+}
+.nav-right-list li {
+  margin-right: 50px;
+  padding: 10px 20px;
+}
+.nav-bottom {
+  width: 100%;
+  transition: all 0.3s;
+}
+.nav:hover {
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.99);
+  color: black;
+}
+
+.nav-list {
+  width: 100%;
+}
+.nav-list-lists {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.nav-list-lists li {
+  font-size: 20px;
+  padding: 5px 15px;
+}
+.nav-list-lists-4 {
+  position: relative;
+}
+.shop-images {
+  display: flex;
+  background-position: center;
+  width: 80%;
+  height: 1000px;
+  margin: 50px auto;
+}
+.shop-images-left {
+  background-image: url("쇼핑몰2.jpg");
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+.shop-images-right {
+  width: 50%;
+  height: 1000px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.shop-images-right-top {
+  display: flex;
+  height: 480px;
+  background-size: cover;
+  padding-bottom: 10px;
+}
+.shop-images-right-bottom {
+  display: flex;
+  height: 480px;
+  background-size: cover;
+}
+.shop-images-right-top1 {
+  background-image: url("쇼핑몰3.jpg");
+  width: 50%;
+  height: 480px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  position: relative;
+}
+.shop-images-right-top2 {
+  width: 50%;
+  height: 480px;
+  background-image: url("쇼핑몰4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.shop-images-right-bottom1 {
+  width: 50%;
+  height: 100%;
+  background-image: url("쇼핑몰5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  position: relative;
+}
+.shop-images-right-bottom2 {
+  width: 50%;
+  height: 100%;
+  background-image: url("쇼핑몰6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  position: relative;
+}
+.shop-relative {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 20px;
+}
+.shop-relative span {
+  font-size: 30px;
+}
+.best-shop {
+  text-align: center;
+  margin-top: 100px;
+  color: black;
+  font-size: 35px;
+}
+.best-shop-list {
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+.best-shop-list-one {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.best-shop-list-one-list {
+  width: 25%;
+}
+.best-shop-list-one-list img {
+  width: 90%;
+  padding: 10px;
+  margin: 0px auto;
+}
+.best-shop-list-one-list span {
+  margin-left: 10px;
+}
+.best-shop-list-one-list > span {
+  font-weight: 600;
+  font-size: 20px;
+}
+.best-shop-list-one-color {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  margin: 5px 5px;
+  padding: 2px;
+}
+.best-shop-list-color {
+  display: flex;
+  margin-left: 10px;
+}
+.best-shop-list-color :nth-child(1) {
+  background-color: black;
+}
+.best-shop-list-color :nth-child(2) {
+  background-color: red;
+}
+.best-shop-list-color :nth-child(3) {
+  background-color: brown;
+}
+.best-shop-list-color :nth-child(4) {
+  background-color: darkorange;
+}
+.best-shop-list-one-box {
+  border: 1px solid red;
+  color: red;
+  display: inline;
+  margin-left: 10px;
+}
+.best-shop-list-one-box span {
+  margin-right: 3px;
+  font-size: 20px;
+}
+.best-shop-focus-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: black;
+  font-size: 25px;
+}
